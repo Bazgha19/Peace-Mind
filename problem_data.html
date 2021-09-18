@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Peace Mind
+        </title>
+        <!-- Favicon Icon -->
+        <link rel="icon" href="images/favicon-32x32.png">
+
+        <!-- CSS Stylesheet -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/problem_datastyles.css">
+
+        <!-- Font Awesome -->
+        <script defer="" src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@300;500&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+
+        <!-- Bootstrap Scripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar sticky-top navbar-expand-lg">
+            <a href="index.html#" class="navbar-brand">Peace Mind</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                Open
+                <!-- <span class="navbar-toggler-icon"></span> -->
+            </button>          
+            <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="index.html#about" target="_blank" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <!-- Welcome Section -->
+        <div class="welcome" onclick="toggle()">
+            <div class="add-problem">
+                <h1>Add your problem</h1>
+                <div>
+                    <form id="form">
+                        <input class="input-text" type="text" id="problem-type" placeholder="Enter type of Problem eg: Health, Education, etc."><br>
+                        <textarea class="input-text" cols="30" rows="5" placeholder="Enter your problem"></textarea><br>
+                        <button class="submit" type="submit">Submit your problem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Problem Section -->
+        <div class="problem">
+            <h2>Educational</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="problem">
+            <h2>Accessibility</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        </div>
+        <div class="problem">
+            <h2>Health</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
