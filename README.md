@@ -15,13 +15,13 @@ It helps you to share your thoughts and problems without telling your name as we
 ## How I built it
 I have designed the web page using HTML, CSS, Bootstrap. Also, the website is mobile responsive for easy to use.
 
-## Challenges we ran into
+## Challenges I ran into
 In hosting my website with domain name.
 
-## Accomplishments that we're proud of
+## Accomplishments that I'm proud of
 I'm happy that at least I had completed the components of the web page. It's my first hackathon and I have learned a lot.
 
-## What we learned
+## What I learned
 Learned, how to host the website with domain name.
 
 ## What's next for Peace Mind
